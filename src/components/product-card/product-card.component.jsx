@@ -1,6 +1,6 @@
 import './product-card.styles.scss';
 
-import Button from '../button/button.component'
+import Button from '../common/button/button.component.tsx'
 
 const ProductCard = ({ product }) => {
     const {name, price, imageUrl } = product;
