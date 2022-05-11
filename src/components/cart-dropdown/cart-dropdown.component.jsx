@@ -5,7 +5,7 @@ import{ CartContext } from '../../contexts/cart.context';
 
 import './cart-dropdown.styles.scss';
 import Button from '../common/button/button.component.tsx';
-import CartItem from '../cart-item/cart-item.component'
+import CartItem from '../cart-item/cart-item.component.tsx'
 
 const CartDropdown = () => {
     const { cartItems } = useContext(CartContext);
